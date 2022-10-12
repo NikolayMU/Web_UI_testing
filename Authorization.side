@@ -1,0 +1,171 @@
+{
+  "id": "60e41853-9aab-4bbf-b606-b233326ffd13",
+  "version": "2.0",
+  "name": "Authorization",
+  "url": "https://confaelshop.ru",
+  "tests": [{
+    "id": "433084c4-877b-494e-a21a-451b68565cbf",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "f156e5a6-b143-408f-a11f-e47bb86ce49b",
+    "name": "Authorization",
+    "commands": [{
+      "id": "61d3270f-e3d6-495d-8813-a719a7fdc565",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98bcdef1-a75d-49d7-bbc9-a543c642862a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bd32308-718c-4bdd-b5d2-24fca4468d11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menutop__user:nth-child(3) span",
+      "targets": [
+        ["css=.menutop__user:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div/div/div[5]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5d67769-3d02-4b0e-bbb9-cfc3d65f41ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=USER_LOGIN", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e70670b-ffe9-475b-bacd-3907e41f709a",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=USER_PASSWORD", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb7a42a-e395-4eb0-bf45-97a7944c7f2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=USER_PASSWORD", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "f697albc"
+    }, {
+      "id": "289f1f9c-a051-4b48-9baf-dceafee049bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(8) > span",
+      "targets": [
+        ["css=.btn:nth-child(8) > span", "css:finder"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ccb805-dd8c-4c85-a109-686d9be26e72",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=USER_LOGIN", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4322e4e7-7b8d-40b4-b373-32a144acad60",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=USER_LOGIN", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8788440-c277-463e-89be-4556a3f5553c",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=USER_LOGIN", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "nmu1989@gmail.com"
+    }, {
+      "id": "6bd57e12-7119-4110-a225-db372bbc9129",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(8) > span",
+      "targets": [
+        ["css=.btn:nth-child(8) > span", "css:finder"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d132641e-b713-4c7f-8af9-3898469c319d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menutop__user:nth-child(3) span",
+      "targets": [
+        ["css=.menutop__user:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div/div/div[5]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58f2e12a-d400-419d-bcf4-e2f47765fddc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menutop__user:nth-child(3) span",
+      "targets": [
+        ["css=.menutop__user:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div/div/div[5]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b417d192-e301-4edb-a3d7-a4139065c7bb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["433084c4-877b-494e-a21a-451b68565cbf"]
+  }],
+  "urls": ["https://confaelshop.ru/"],
+  "plugins": []
+}
