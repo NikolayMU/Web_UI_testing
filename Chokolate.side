@@ -1,0 +1,282 @@
+{
+  "id": "950e5c3b-ccbe-48e2-9e88-1d6a2423671a",
+  "version": "2.0",
+  "name": "Chokolate",
+  "url": "https://confaelshop.ru",
+  "tests": [{
+    "id": "c8c919da-e971-415e-bebe-68d7dfaa8191",
+    "name": "Authorization",
+    "commands": [{
+      "id": "53de932c-02e5-4132-af86-65bdc5c43c1b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85ba620e-7a5f-4310-be04-3e251937b7fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7154ce7d-13b1-4019-bb9c-b7e2118a5de6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menutop__user:nth-child(3) span",
+      "targets": [
+        ["css=.menutop__user:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div/div/div[5]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d9d97fc-a61c-4fe1-b959-446ea3948e15",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=USER_LOGIN", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0d866b-7df9-41d8-915e-88da39af3789",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=USER_LOGIN", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "nmu1989@gmail.com"
+    }, {
+      "id": "19570124-a642-4281-8256-76d15acb0258",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=USER_PASSWORD", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fcb39ad-227d-4282-bdba-bca1ddfc4b1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=USER_PASSWORD", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "f697albc"
+    }, {
+      "id": "0ecb276e-09b4-4e3f-ad42-705cca224cd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(8) > span",
+      "targets": [
+        ["css=.btn:nth-child(8) > span", "css:finder"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dde26452-08ec-4f44-9fed-f75c6740579c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#bx_3218110189_307957 .ls-is-cached",
+      "targets": [
+        ["css=#bx_3218110189_307957 .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='День Отца!']", "xpath:img"],
+        ["xpath=//div[@id='bx_3218110189_307957']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee1daa4d-2f61-46ad-afc3-d93be7f9bd05",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#bx_3218110189_307957 .ls-is-cached",
+      "targets": [
+        ["css=#bx_3218110189_307957 .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='День Отца!']", "xpath:img"],
+        ["xpath=//div[@id='bx_3218110189_307957']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5f9d4c7-e3aa-4298-a245-2844ac9fe792",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menutop__user:nth-child(3) span",
+      "targets": [
+        ["css=.menutop__user:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div/div/div[5]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "443419e2-d4ba-4960-ab53-d8d9e966936e",
+    "name": "Add to cart",
+    "commands": [{
+      "id": "92b5743b-45ee-4ee6-903e-18a388db8871",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11e0d0be-a9be-4127-b477-e5994467238c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "959x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27029886-8b4b-4bd0-aed8-f79b97412dff",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[text()='Каталог шоколадных подарков']",
+      "targets": [
+        ["css=.menu__catalog", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efcbb1e1-339b-4705-87fc-fd1a3ab18c82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Шоколад",
+      "targets": [
+        ["linkText=Шоколад", "linkText"],
+        ["css=.hover > .submenu__link > .js-open-submenu:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Шоколад')])[4]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/shokolad/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1cff121-77a7-4939-b991-e16b04093b0b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,410)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7aa697c2-e9b7-44af-86cc-f85aba6ee1f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Шоколадный ЗАЯЦ 110 г в ассортименте",
+      "targets": [
+        ["linkText=Шоколадный ЗАЯЦ 110 г в ассортименте", "linkText"],
+        ["css=#bx_3966226736_308019_c80764dfaf26ca80162484593ec7c29b .product__title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Шоколадный ЗАЯЦ 110 г в ассортименте')]", "xpath:link"],
+        ["xpath=//div[@id='bx_3966226736_308019_c80764dfaf26ca80162484593ec7c29b']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/catalog/shokoladnyj-zayats-110-gr/')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Шоколадный ЗАЯЦ 110 г в ассортименте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5ef88c-5fb1-4202-bb84-1b748a67f72c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-active .ls-is-cached",
+      "targets": [
+        ["css=.swiper-slide-active .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='ЗАЯЦ молочный шоколад 110гр']", "xpath:img"],
+        ["xpath=//div[@id='wrapper']/div[5]/div[3]/div/div/div[2]/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c28aac-6f62-4d17-8614-0d3fcfb516fa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3d39675-c5b9-4407-a988-a1eb0b0853cf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.swiper-slide-active .ls-is-cached",
+      "targets": [
+        ["css=.swiper-slide-active .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='ЗАЯЦ молочный шоколад 110гр']", "xpath:img"],
+        ["xpath=//div[@id='wrapper']/div[5]/div[3]/div/div/div[2]/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b081b8f-3038-4abd-ad2b-0933723c841a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.added > .icon",
+      "targets": [
+        ["css=.added > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c51d9f2-28b6-456c-92dd-3740dab3c8f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.added > .icon",
+      "targets": [
+        ["css=.added > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d3030b-2146-4f55-81ff-3819ffc6d025",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.added > .icon",
+      "targets": [
+        ["css=.added > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0956ec67-6acd-4442-a67d-346a19ddb306",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Перейти в корзину",
+      "targets": [
+        ["linkText=Перейти в корзину", "linkText"],
+        ["css=.btn--cart:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Перейти в корзину')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/basket/')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Перейти в корзину')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0344542a-934d-4506-b4bf-7030628119a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://confaelshop.ru/"],
+  "plugins": []
+}
